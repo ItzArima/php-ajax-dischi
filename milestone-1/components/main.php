@@ -4,7 +4,7 @@
 
 <main>
     <div class="disks-container">
-        <?php foreach($discs as $key => $value) { ?>
+        /* <?php foreach($discs as $key => $value) { ?>
         <div class="disk">
             <div class="disk-card">
                 <img src="<?php echo $value['poster'];?>" alt="">
@@ -15,6 +15,6 @@
                 </div>
             </div>    
         </div>
-        <?php } ?>
+        <?php } ?> */
     </div>
 </main>
