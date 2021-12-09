@@ -1,5 +1,12 @@
-<main>
-    <div class="disks-container" id="app">
+<main id="app">
+    <select v-model="value" name="categories" id="select" @change="filter">
+        <option value="">All</option>
+        <option value="Rock">Rock</option>
+        <option value="Pop">Pop</option>
+        <option value="Jazz">Jazz</option>
+        <option value="Metal">Metal</option>
+    </select>   
+    <div class="disks-container" >
         <div class="disk" v-for="disk in disks">
             <div class="disk-card">
                 <img :src="disk.poster" alt="">
